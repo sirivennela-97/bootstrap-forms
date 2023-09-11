@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration form</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- <img class="women" src="./women.jpg" alt="women" /> -->
+
+    <div class="reg">
+      <h1 class="name">FORM</h1>
+      <div class="input-group mb-3">
+        <!-- <span class="input-group-text">Name</span> -->
+        <div class="form-floating">
+          <input
+            type="text"
+            class="form-control"
+            id="floatingInputGroup1"
+            placeholder="Username"
+          />
+          <label for="floatingInputGroup1">Firstname</label>
+        </div>
+      </div>
+
+      <div class="input-group mb-3">
+        <!-- <span class="input-group-text"></span> -->
+        <div class="form-floating">
+          <input
+            type="text"
+            class="form-control"
+            id="floatingInputGroup1"
+            placeholder="Username"
+          />
+          <label for="floatingInputGroup1">Lastname</label>
+        </div>
+      </div>
+
+      <div class="lang bg-light">
+        <label>Language</label>
+        <div class="form-check form-check-inline">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            id="inlineCheckbox1"
+            value="option1"
+          />
+
+          <label class="form-check-label" for="inlineCheckbox1">English</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            id="inlineCheckbox2"
+            value="option2"
+          />
+          <label class="form-check-label" for="inlineCheckbox2">Hindi</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            id="inlineCheckbox3"
+            value="option3"
+          />
+          <label class="form-check-label" for="inlineCheckbox3">Telugu </label>
+        </div>
+      </div>
+
+      <br />
+      <div class="gender bg-light">
+        <label>Gender</label>
+        <div class="form-check form-check-inline">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="inlineRadioOptions"
+            id="inlineRadio1"
+            value="option1"
+          />
+
+          <label class="form-check-label" for="inlineRadio1">Male</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="inlineRadioOptions"
+            id="inlineRadio2"
+            value="option2"
+          />
+          <label class="form-check-label" for="inlineRadio2">Female</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="inlineRadioOptions"
+            id="inlineRadio3"
+            value="option3"
+          />
+          <label class="form-check-label" for="inlineRadio3">Others</label>
+        </div>
+      </div>
+      <br />
+      <div class="form-floating mb-3">
+        <input
+          type="email"
+          class="form-control"
+          id="floatingInput"
+          placeholder="name@example.com"
+        />
+        <label for="floatingInput">Email address</label>
+      </div>
+      <div class="form-floating">
+        <input
+          type="password"
+          class="form-control"
+          id="floatingPassword"
+          placeholder="Password"
+        />
+        <label for="floatingPassword">Password</label>
+      </div>
+      <br />
+
+      <div class="form-floating">
+        <textarea
+          class="form-control"
+          placeholder="Leave a comment here"
+          id="floatingTextarea"
+        ></textarea>
+        <label for="floatingTextarea">Address</label>
+      </div>
+      <br />
+
+      <div class="form-floating">
+        <select
+          class="form-select"
+          id="floatingSelect"
+          aria-label="Floating label select example"
+        >
+          <option selected>City</option>
+          <option value="1">Hyderabad</option>
+          <option value="2">RangaReddy</option>
+          <option value="3">Medchal</option>
+          <option value="3">Hitech-city</option>
+          <option value="3">Nagole</option>
+        </select>
+        <!-- <label for="floatingSelect">City</label> -->
+      </div>
+      <br />
+      <div class="form-floating">
+        <select
+          class="form-select"
+          id="floatingSelect"
+          aria-label="Floating label select example"
+        >
+          <option selected>districts</option>
+          <option value="1">Hyderabad</option>
+          <option value="2">RangaReddy</option>
+          <option value="3">Medchal</option>
+          <option value="3">Hitech-city</option>
+          <option value="3">Nagole</option>
+        </select>
+        <!-- <label for="floatingSelect">district</label> -->
+      </div>
+
+      <div class="btn">
+        <button type="button" class="btn btn-light">
+          <a href="./login.html">Submit</a>
+        </button>
+
+        <button type="button" class="btn btn-light">
+          <a href="./index.html">Login</a>
+        </button>
+      </div>
+
+      <footer>
+        <svg
+          class="banner"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1440 320"
+        >
+          <path
+            fill="#0099ff"
+            fill-opacity="1"
+            d="M0,256L48,234.7C96,213,192,171,288,160C384,149,480,171,576,197.3C672,224,768,256,864,266.7C960,277,1056,267,1152,234.7C1248,203,1344,149,1392,122.7L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+          ></path>
+        </svg>
+        <p class="waves">&copy;All Copy Rights are Received</p>
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
